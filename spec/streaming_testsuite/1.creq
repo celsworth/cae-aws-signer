@@ -1,0 +1,13 @@
+PUT
+/examplebucket/chunkObject.txt
+
+content-encoding:aws-chunked
+content-length:66824
+host:s3.amazonaws.com
+x-amz-content-sha256:STREAMING-AWS4-HMAC-SHA256-PAYLOAD
+x-amz-date:20130524T000000Z
+x-amz-decoded-content-length:66560
+x-amz-storage-class:REDUCED_REDUNDANCY
+
+content-encoding;content-length;host;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length;x-amz-storage-class
+STREAMING-AWS4-HMAC-SHA256-PAYLOAD
